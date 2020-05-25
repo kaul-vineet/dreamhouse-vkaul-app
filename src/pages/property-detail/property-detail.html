@@ -35,7 +35,7 @@
                 <h2>{{property.broker.name}}</h2>
                 <p>{{property.broker.title}}</p>
             </button>
-            <button ion-item (click)="openBrokerDetail(property.broker)">
+            <button ion-item (click)="window.open('https://vrar-millenial-falcon.herokuapp.com/','popup','width=600,height=600'); return false;">
 				<ion-avatar item-left>
 			    <img src="https://image.flaticon.com/icons/png/128/1377/1377790.png"/>
 			    </ion-avatar>
