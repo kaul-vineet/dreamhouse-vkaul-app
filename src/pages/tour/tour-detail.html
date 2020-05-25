@@ -28,13 +28,6 @@
                 <h3>Asking Price</h3>
                 <ion-note item-right>{{property.price}}</ion-note>
             </ion-item>
-            <button ion-item (click)="openBrokerDetail(property.broker)">
-				<ion-avatar item-left>
-			    	<img src="{{property.broker.picture}}"/>
-			    </ion-avatar>
-			    <h2>{{property.broker.name}}</h2>
-			    <p>{{property.broker.title}}</p>
-            </button>
             <ion-item>
                 <ion-avatar item-left>
                     <img src="https://image.flaticon.com/icons/png/128/1377/1377790.png"/>
@@ -42,7 +35,7 @@
                 <a href="https://vrar-millenial-falcon.herokuapp.com/"
 				target="popup"
 				onclick="window.open('https://vrar-millenial-falcon.herokuapp.com/','popup','width=500,height=600'); return false;">
-				Virtual Tour
+				Open Tour
 				</a>
 			    <!-- <h2>{{property.broker.name}}</h2> -->
             </ion-item>
