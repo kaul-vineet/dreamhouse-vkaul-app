@@ -35,16 +35,23 @@
                 <h2>{{property.broker.name}}</h2>
                 <p>{{property.broker.title}}</p>
             </button>
+            <button ion-item (click)="openBrokerDetail(property.broker)">
+				<ion-avatar item-left>
+			    <img src="https://image.flaticon.com/icons/png/128/1377/1377790.png"/>
+			    </ion-avatar>
+			    <a href="http://kanishkkunal.in"
+				  target="popup"
+				  onclick="window.open('https://vrar-millenial-falcon.herokuapp.com/','popup','width=600,height=600'); return false;">
+				  Open Tour
+				</a>
+			    <!-- <h2>{{property.broker.name}}</h2> -->
+            </button>
         </ion-list>
 
         <ion-item>
             <button ion-button icon-left (click)="favorite(property)" clear item-left>
                 <ion-icon name="star"></ion-icon>
                 Favorite
-            </button>
-            <button ion-button icon-left (click)="favorite(property)" clear item-left>
-				<ion-icon name="star"></ion-icon>
-			    Tour
             </button>
             <button ion-button icon-left (click)="share(property)" clear item-right>
                 <ion-icon name="share"></ion-icon>
