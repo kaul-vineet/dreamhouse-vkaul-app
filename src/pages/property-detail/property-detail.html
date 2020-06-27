@@ -35,17 +35,11 @@
 			    <h2>{{property.broker.name}}</h2>
 			    <p>{{property.broker.title}}</p>
             </button>
-            <ion-item>
-                <ion-avatar item-left>
-                    <img src="https://image.flaticon.com/icons/png/128/1377/1377790.png"/>
-                </ion-avatar>
-                <a href="https://vrar-millenial-falcon.herokuapp.com/"
-				target="popup"
-				onclick="window.open('https://vrar-millenial-falcon.herokuapp.com/','popup','width=500,height=600'); return false;">
-				Virtual Tour
-				</a>
-			    <!-- <h2>{{property.broker.name}}</h2> -->
-            </ion-item>
+			<button ion-item (click)="openExperienceDetail(property)">
+				<ion-avatar item-left>
+					<img src="https://image.flaticon.com/icons/png/128/1377/1377790.png"/>
+				</ion-avatar>
+            </button>
         </ion-list>
 
         <ion-item>
