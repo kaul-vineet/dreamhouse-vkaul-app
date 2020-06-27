@@ -11,6 +11,7 @@ import {BrokerListPage} from '../pages/broker-list/broker-list';
 import {BrokerDetailPage} from '../pages/broker-detail/broker-detail';
 import {FavoriteListPage} from '../pages/favorite-list/favorite-list';
 import {AboutPage} from '../pages/about/about';
+import {ExperienceDetailPage} from '../pages/experience-detail/experience-detail';
 
 import {PropertyService} from "../providers/property-service-rest";
 import {BrokerService} from "../providers/broker-service-rest";
