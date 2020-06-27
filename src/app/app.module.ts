@@ -27,7 +27,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PropertyDetailPage,
     FavoriteListPage,
     BrokerListPage,
-    BrokerDetailPage
+    BrokerDetailPage,
+    ExperienceDetail
   ],
   imports: [
     BrowserModule,
@@ -43,7 +44,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PropertyDetailPage,
     FavoriteListPage,
     BrokerListPage,
-    BrokerDetailPage
+    BrokerDetailPage,
+    ExperienceDetail
   ],
   providers: [
     StatusBar,
